@@ -4,4 +4,5 @@ var generateRndNum= function(name)
 		max = Math.floor(15);
 		var randomNum= Math.floor(Math.random() * (max - min)) + min;
 		document.getElementById("name").innerHTML = name+randomNum;
+		return name+randomNum;
 	}
